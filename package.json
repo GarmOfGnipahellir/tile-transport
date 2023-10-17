@@ -1,0 +1,22 @@
+{
+  "name": "tile-transport",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tweakpane": "^4.0.1",
+    "two.js": "^0.8.12"
+  },
+  "devDependencies": {
+    "@tweakpane/core": "^2.0.1",
+    "@types/node": "^20.8.6",
+    "parcel": "^2.10.0"
+  }
+}
