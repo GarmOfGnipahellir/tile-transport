@@ -5,3 +5,9 @@ const two = new Two({
   fullscreen: true,
   autostart: true,
 }).appendTo(document.body);
+
+two.bind(Two.Events.Types.update, () => {
+  update(two.timeDelta / 1000);
+});
+
+function update(dt: number) {}
